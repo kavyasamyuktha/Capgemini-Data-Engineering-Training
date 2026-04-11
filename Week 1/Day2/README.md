@@ -1,4 +1,4 @@
-## Phase 3 – Joins and GROUP BY in SQL
+## Day 3 – Joins and GROUP BY in SQL
 
 ## What I Learned:
 

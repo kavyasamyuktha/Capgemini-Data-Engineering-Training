@@ -61,28 +61,45 @@ Join outputs were sometimes unexpected due to incorrect conditions or misunderst
 
 Strengthened my understanding of relational data processing and gained confidence in writing PySpark transformations.
 
-## Phase 3: Data Cleaning and ETL Basics
+## Phase 3 & 3A: PySpark Basics and Data Cleaning
 
 ### Topics Covered:
-Reading data from external files
-Data cleaning and preprocessing
-Handling missing and invalid data
-Data validation techniques
-Joins and aggregations in ETL workflows
+
+Basic PySpark DataFrame operations
+SQL to PySpark syntax conversion
+Data inspection using show() and printSchema()
+Handling missing values and duplicate records
+Data validation and filtering
 
 ### Key Learnings:
+In this phase, I learned how to work with PySpark DataFrames and convert SQL logic into PySpark operations. Along with this, I understood the importance of data cleaning before analysis. I learned how to handle missing values, remove duplicates, and filter invalid data to ensure data quality.
 
-I learned the complete ETL process and understood how raw data is transformed into clean, usable datasets. I also realized the importance of data quality before analysis.
+I also realized that writing correct transformations is not enough; the data must be clean and consistent for accurate results.
+
+### What I Did:
+
+Used PySpark DataFrame operations for basic transformations
+Converted SQL queries into PySpark syntax
+Inspected datasets using show() and printSchema()
+Identified null values, duplicates, and invalid age records
+Removed rows with missing customer_id
+Replaced missing name and city values with "Unknown"
+Removed duplicate records
+Filtered invalid age values
+Verified dataset before and after cleaning
+Counted customers in each city
 
 ### Challenges Faced:
 
-Handling inconsistent data formats and ensuring correct transformation order was challenging. Debugging pipeline steps required careful attention.
+Adjusting from SQL mindset to PySpark syntax
+Understanding how transformations affect final output
+Ensuring correct order of cleaning operations
 
 ### Outcome:
 
-Developed a clear understanding of ETL workflows and how data is prepared for analysis in real-world systems.
+I developed a strong understanding of PySpark basics along with practical data cleaning skills. This phase helped me build confidence in preparing clean datasets for analysis and applying transformations correctly.
 
-## Phase 4: Complete Data Pipeline Implementation
+## Phase 4 & 4A: Complete Data Pipeline Implementation
 
 ### Topics Covered:
 End-to-end ETL pipeline design

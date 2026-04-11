@@ -1,4 +1,4 @@
-## Phase 4 – CASE WHEN and Window Functions in SQL
+## Day 4 – CASE WHEN and Window Functions in SQL
 
 ### What I Learned:
 

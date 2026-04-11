@@ -1,4 +1,4 @@
-## Day 3 – Joins and GROUP BY in SQL
+## Day 2 – Joins and GROUP BY in SQL
 
 ## What I Learned:
 
